@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Bert.RateLimiters\Bert.RateLimiters.csproj" />
+    <ProjectReference Include="..\..\src\Bert.RateLimiters\Bert.RateLimiters.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bert.RateLimiters", "src\Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bert.RateLimiters.Tests", "test\Bert.RateLimiters.Tests\Bert.RateLimiters.Tests.csproj", "{FC7C392A-C95A-4AAC-9A9E-0AAEFF734686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{8C05AACB-F5C9-474B-98EE-279B8E8D7B06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "sample\Hello\Hello.csproj", "{8C05AACB-F5C9-474B-98EE-279B8E8D7B06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

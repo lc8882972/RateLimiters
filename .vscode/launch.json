@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "name": ".NET Core Launch (console)",
+    "type": "coreclr",
+    "request": "launch",
+    "preLaunchTask": "build",
+    "program": "${workspaceRoot}/sample/Hello/bin/Debug/netcoreapp1.1/Hello.dll",
+    "args": [],
+    "cwd": "${workspaceRoot}",
+    "stopAtEntry": false,
+    "console": "internalConsole"
+  }]
+}
