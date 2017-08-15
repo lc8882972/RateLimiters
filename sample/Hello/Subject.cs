@@ -7,7 +7,6 @@ namespace Hello
     // 观察者模式
     abstract class Subject
     {
-
         public event EventHandler Update;
         IList<Observer> observers = new List<Observer>();
         public void Attch(Observer observer)

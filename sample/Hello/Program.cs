@@ -32,6 +32,12 @@ namespace Hello
             originator.SetMemento(caretaker.Memento);
             originator.Show();
 
+            // 命令模式
+            Receiver receiver = new Receiver();
+            Command command = new ConcreteCommand(receiver);
+            Invoke invoke = new Invoke(command);
+            invoke.Execute();
+
             Console.WriteLine("Hello World!");
         }
     }
